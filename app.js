@@ -21,8 +21,8 @@ const { saveUrl } = require("./middleware.js");
 const { isLoggedIn } = require("./middleware.js");
 const getExchangeRate = require("./utils/currencyConverter.js");
 
-const dbURL = "mongodb://127.0.0.1:27017/traveltrack";
-// const dbURL = process.env.ATLASDB_URL;
+// const dbURL = "mongodb://127.0.0.1:27017/traveltrack";
+const dbURL = process.env.ATLASDB_URL;
 
 main().then((res)=>{
     console.log("Connected to DB");
