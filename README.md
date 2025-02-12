@@ -8,6 +8,7 @@ Budget Management – Set budgets for trips and track remaining amounts.
 User-Friendly Interface – Minimalist, sleek, and responsive design for easy use.
 
 Installation
+
 Clone the repository:
 git clone https://github.com/thanusha17/TravelTrack.git
 cd TravelTrack
@@ -16,11 +17,15 @@ Install dependencies:
 npm install
 
 Set up environment variables:
+
 Create a .env file and add:
+
 API_KEY=your_exchangerate_api_key
+
 MONGODB_URI=your_mongodb_uri
 
 Run the project:
+
 npm start
 
 Deployment
