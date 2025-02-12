@@ -1,0 +1,33 @@
+<% layout('/layouts/boilerplate.ejs') -%>
+
+<div class="container mt-4 offset-md-2">
+    <h2 class="mb-4">Create a New Trip</h2>
+    <form action="/trips" method="POST">
+        <div class="mb-3 col-md-8">
+            <label for="destination" class="form-label">Destination</label>
+            <input type="text" class="form-control" id="destination" name="destination" required>
+        </div>
+
+        <div class="mb-3 col-md-8">
+            <label for="budget" class="form-label">Total Budget</label>
+            <input type="number" class="form-control" id="budget" name="budget" required>
+        </div>
+
+
+        <div class="mb-3 col-md-8 d-flex gap-3">
+        <div class="mb-3 col-md-6">
+            <label for="inputCurrency" class="form-label">Your Destination Currency</label>
+            <input type="text" class="form-control" id="inputCurrency" name="inputCurrency" placeholder="Enter currency code (e.g., USD, INR)" required>
+        </div>
+       
+
+        <div class="mb-3 col-md-6">
+            <label for="outputCurrency" class="form-label">Home Currency</label>
+            <input type="text" class="form-control" id="outputCurrency" name="outputCurrency" placeholder="Enter currency code (e.g., USD, EUR)" required>
+
+        </div>
+    </div>
+
+        <button type="submit" class="btn btn-primary mb-4" style="background-color: rgb(3, 3, 66); color: white;" >Create Trip</button>
+    </form>
+</div>

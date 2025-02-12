@@ -1,0 +1,166 @@
+body{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+body{
+    overflow-x: hidden;
+    width: 100%;
+}
+
+.container{
+    flex: 1;
+}
+
+.container-fluid{
+    background-color: white;
+}
+
+.navbar{
+    height : 5rem;
+    background-color: white;
+    /* border-bottom: 2px solid #333; */
+}
+
+.navbar-shadow {
+    box-shadow: 0 4px 2px -2px rgba(0, 0, 0, 0.2);
+}
+
+.fa-globe{
+    font-size: 2rem;
+    color:#2b3d5b;
+    margin-right: 0 !important;
+}
+.nav-link{
+    font-size: 1.1rem;
+    color:#000000;
+}
+
+footer{
+    padding-top: 10px;
+    position: relative;
+    bottom:0px;
+    width:100%;
+    margin-top: 1rem;
+    text-align: center;
+    height:110px;
+    background-color: #e4e3e3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.socials i{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+.socials, .brand, .info{
+    width: 100%;
+}
+.info a{
+    margin-right: 0.5rem;
+    text-decoration: none;
+    color:#222222;
+}
+.info a:hover{
+    text-decoration: underline;
+}
+/* Headline Styling */
+.how-it-works-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    background: linear-gradient(45deg, #021e3b, #074754);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Center the cards in a flexible grid */
+.d-flex {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Card Styling */
+.how-it-works-card {
+    width: 350px;
+    /* margin-right: 1rem !important; */
+    margin-left:1.5rem !important;
+    background: white;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.how-it-works-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.how-it-works-card i {
+    font-size: 3rem;
+    color: #05356e;
+    margin-bottom: 15px;
+}
+.sec2{
+    margin-top: 1.5rem !important;
+}
+
+.join-community {
+   
+    background: linear-gradient(to right, #305783, #479af2); /* Sleek blue gradient */
+    color: white;
+    border-radius: 10px;
+    margin: 50px auto;
+    width: 95%;
+}
+
+.join-community h2 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.join-community p {
+    font-size: 1.2rem;
+}
+
+.join-community .btn {
+    background-color: white;
+    color: #007BFF;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-weight: bold;
+    transition: all 0.3s ease-in-out;
+}
+
+.join-community .btn:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .join-community {
+        padding: 40px 20px;
+    }
+
+    .join-community h2 {
+        font-size: 1.8rem;
+    }
+
+    .join-community p {
+        font-size: 1rem;
+    }
+
+    .join-community .btn {
+        padding: 10px 25px;
+        font-size: 1rem;
+    }
+}
+
