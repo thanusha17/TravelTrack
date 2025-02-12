@@ -1,10 +1,15 @@
 TravelTrack
+
 TravelTrack is a one-stop solution for travelers and influencers to simplify expense management. Instead of manually converting currencies and tracking expenses, TravelTrack automates the process, making budgeting seamless and hassle-free.
 
 Features
+
 Automated Currency Conversion – Converts expenses into your home currency instantly.
+
 Expense Tracking – Organize spending by category for better financial insights.
+
 Budget Management – Set budgets for trips and track remaining amounts.
+
 User-Friendly Interface – Minimalist, sleek, and responsive design for easy use.
 
 Installation
